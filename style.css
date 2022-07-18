@@ -31,6 +31,7 @@
     width: 100%;
     justify-content: space-between;
     position: fixed;
+    background-color: white;
 }
 .nav-button{
     height: 100%;
@@ -39,4 +40,26 @@
     align-items: center;
 }
 
+/* Header */
+header{
+    height:80vh;
+    padding-top: 7vh;
+    padding-right: 15%;
+    padding-left: 15%;
+    background-color: rgb(181, 208, 230);
+    flex-wrap: wrap;
+}
+
+.header-title{
+    height: 40%;
+    width: 100%;
+}
+.header-text{
+    height: 60%;
+    width: 50%;
+}
+.header-image{
+    height:70%;
+    width: 50%;
+}
 
