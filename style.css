@@ -67,7 +67,6 @@ header{
 /* Main + Section */
 main{
     height: 1000vh; /* Debug */
-    
 }
 
 section{
@@ -76,17 +75,17 @@ section{
     padding-right: 20%;
     margin-top: 10vh;
     margin-bottom: 10vh;
+    line-height: 60px;
+    justify-content: space-between;
 }
 
 /* First Section */
 section:nth-of-type(1){
     height: 130vh; /* Debug */
-    line-height: 60px;
-    justify-content: space-between;
 }
 
 .cards-container{
-    height: 85%;
+    height: 90%; /* Debug */
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: space-between;
@@ -104,7 +103,7 @@ section:nth-of-type(1){
 
 /* Second Section */
 section:nth-of-type(2){
-    height: 50vh;
+    height: 50vh; /* Debug */
 }
 .second-section-img{
     height: 100%;
@@ -116,3 +115,15 @@ section:nth-of-type(2){
 }
 /* / Second Section */
 
+/* Third Section */
+section:nth-of-type(3){
+    height: 100vh;  /* Debug */
+}
+
+.small-card{
+    height: 45%;
+    width: 30%;
+}
+
+
+/* / Third Section */
