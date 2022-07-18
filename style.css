@@ -149,5 +149,29 @@ section:nth-of-type(6){
 }
 /* Sixth Section */
 
+/* Footer */
+footer{
+    height: 50vh;
+    margin-top: 10vh;
+    padding-right: 15%;
+    padding-left: 15%;
+    flex-wrap: wrap;
+}
+
+.footer-columns-container{
+    height: 70%;
+    width: 100%;
+}
+.footer-language-selector{
+    height: 30%;
+    width: 100%;
+}
+.footer-column{
+    height: 100%;
+    width: 20%;
+}
+/* / Footer */
+
+
 
 
