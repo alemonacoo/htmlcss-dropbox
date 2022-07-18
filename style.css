@@ -1,6 +1,11 @@
 /* General */
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.drop-box{
+    position: relative;
 }
 
 /* Debug */
@@ -20,6 +25,18 @@
     padding: 10px;
 }
 
-
+/* Nav */
+.nav-bar{
+    height: 7vh;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+}
+.nav-button{
+    height: 100%;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
 
 
