@@ -32,13 +32,25 @@
     justify-content: space-between;
     position: fixed;
     background-color: white;
+    font-size: 0.7rem;
 }
-.nav-button{
+.nav-bar img{
     height: 100%;
-    width: 100px;
+}
+
+.nav-button{
     justify-content: center;
     align-items: center;
+    margin: 15px;
 }
+
+.blue-button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(18, 102, 251);
+    font-size: 0.8rem;
+}
+
 
 /* Header */
 header{
@@ -46,7 +58,6 @@ header{
     padding-top: 7vh;
     padding-right: 15%;
     padding-left: 15%;
-    background-color: rgb(181, 208, 230);
     flex-wrap: wrap;
 }
 
