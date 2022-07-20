@@ -20,10 +20,20 @@
     display: flex;
     flex-direction: row;
 }
-.blue-button{
-    background-color: blue;
-    color: white;
+.button{
+    display: flex;
+    width: fit-content;
     padding: 10px;
+    border: solid black 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+.blue-button{
+    background-color: rgb(18, 102, 251);
+    color: white;
+    border: none;
 }
 
 /* Nav */
@@ -43,13 +53,6 @@
     align-items: center;
     margin: 12px;
 }
-.blue-button{
-    padding: 10px;
-    color: white;
-    background-color: rgb(18, 102, 251);
-    font-size: 0.8rem;
-}
-
 
 /* Header */
 header{
@@ -83,9 +86,8 @@ section{
     width: 100%;
     padding-left: 20%;
     padding-right: 20%;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-
+    margin-top: 15vh;
+    margin-bottom: 15vh;
     justify-content: space-between;
 }
 
@@ -94,7 +96,7 @@ section:nth-of-type(1) h2{
     margin-bottom: 30px;
 }
 .cards-container{
-
+    height: 90%; /*debug*/
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: space-between;
@@ -116,7 +118,7 @@ section:nth-of-type(1) h2{
 }
 
 .plan-conditions{
-    margin: 20px 10px 20px 10px;
+    margin: 15px;
     font-size: 0.9rem;
     line-height: 20px;
 }
@@ -124,7 +126,6 @@ section:nth-of-type(1) h2{
     margin-top: 20px;
     margin-bottom: 20px;
     list-style-type: none;
-    list-style-position: inside;
 }
 .plan-conditions > hr{
     margin-top: 20px;
@@ -142,22 +143,25 @@ section:nth-of-type(1) h2{
 .card:last-of-type .plan-conditions{
     justify-content: space-between;
 }
-
-
-
 /* / First Section */
+
+
 
 /* Second Section */
 section:nth-of-type(2){
-    height: 50vh; /* Debug */
 }
 .second-section-img{
     height: 100%;
-    width: 50%;
+    width: 60%;
 }
+.second-section-img > img{
+    width: 100%;
+}
+
 .second-section-text{
-    height: 100%;
-    width: 50%;
+    width: 40%;
+    margin: 50px;
+    justify-content: space-between;
 }
 /* / Second Section */
 
