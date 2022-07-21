@@ -178,31 +178,127 @@ section:nth-of-type(3) h2{
 }
 /* / Third Section */
 
+/* Fourth Section */
+section:nth-of-type(4){
+    margin-bottom: 20vh;
+}
+section:nth-of-type(4) > h2{
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+
+/* / Fourth Section */
+
+
 /* Fifth Section */
 section:nth-of-type(5){
-    flex-direction: row;
-    height: 100vh;
     padding: 0;
     margin-top: 0;
 }
 .side-grid, .center-grid{
-    width: calc(100%/3); 
-    height: 65%;  
+    width: calc(100vw/3); 
+    height: calc(100vw/3);  
     flex-wrap: wrap;
 }
 .grid-card{
     height: 50%;
     width: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: border .1s linear;
 }
+.grid-card > img{
+    width: 60%;
+    filter: invert(1);
+}
+.grid-card:hover{
+    border: solid 10px rgba(255, 255, 255, 0.75);
+}
+
+.center-grid{
+    padding: 40px;
+    background-color: #f5f5f5;
+    justify-content: space-around;
+}
+
+.center-grid > img{
+    width: 60%;
+}
+
+
+#company_1{
+    background-color: #a3d39b;
+}
+#company_2{
+    background-color: #61082c;
+}
+#company_3{
+    background-color: #0093ce;
+}
+#company_4{
+    background-color: #ff1d1d;
+}
+#company_5{
+    background-color: #d5001f;
+}
+#company_6{
+    background-color: #b4d1e7;
+}
+#company_7{
+    background-color: #0c2481;
+}
+#company_8{
+    background-color: #ffd831;
+}
+
+.bottom-grid{
+    padding: 6% 20% 6% 20%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b4d1e7;
+}
+.bottom-grid h2{
+    width: 60%;
+    color: #641c37;
+}
+
+.bottom-grid .button{
+    background-color: white;
+    border: none;
+}
+
+
 /* / Fifth Section */
 
 /* Sixth Section */
-section:nth-of-type(6){
-    height: 70vh;
+section:nth-of-type(6) h2{
+    margin-bottom: 40px;
 }
+
+
 .question{
-    height: 25%;
+    height: 60px;
+    overflow-y: hidden;
+    border-bottom: solid black 1px;
 }
+
+
+.question h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+
+}
+.question:hover{
+    height: auto;
+}
+
+
+
+
+
+
 /* Sixth Section */
 
 /* Footer */
